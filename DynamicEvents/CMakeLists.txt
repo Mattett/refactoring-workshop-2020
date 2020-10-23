@@ -3,6 +3,7 @@ add_custom_target(DynamicEvents_HEADERS SOURCES
     EventT.hpp
     IPort.hpp
     IEventHandler.hpp
+    SnakeBody.hpp
 )
 
 add_library(DynamicEvents INTERFACE)
